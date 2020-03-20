@@ -18,7 +18,7 @@ about any of the projects showcased feel free to reach out._
 5. Step five: Drag the html file into your broswer.
 6. Step six: Start picking your toppings!
 
-or check it out at [My portafolio](https://neversettels.github.io/epicodus-portafolio/)
+or check it out at [My portafolio](https://neversettels.github.io/new-portafolio/)
 
 ## **Known Bugs**
 
