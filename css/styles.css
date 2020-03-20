@@ -57,7 +57,11 @@ body {
   width: 85%;
   background-color: whitesmoke;
 }
-.about {
+.name {
+  color: #d19c1d;
+  font-weight: bold;
+}
+.box {
   width: 85%;
   background-color: whitesmoke;
   padding: 1rem;
@@ -67,6 +71,17 @@ body {
 .about p {
   padding: 1rem;
   text-align: justify;
+}
+.about a {
+  color: #283044;
+  text-decoration: underline #136f63;
+  text-decoration-style: solid;
+  transition: all 1s linear;
+}
+.about a:hover {
+  color: #136f63;
+  text-decoration: none;
+  font-size: larger;
 }
 .about h3 {
   color: #d19c1d;
@@ -82,4 +97,12 @@ body {
 }
 .skill-lists div {
   width: 30%;
+}
+.skill-lists li {
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.skill-lists ol {
+  list-style-type: upper-roman;
 }
