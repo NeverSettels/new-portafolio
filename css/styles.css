@@ -51,5 +51,5 @@ body {
   background-size: contain;
   background-image: url(../images/IMG_1784.JPG);
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  animation: rotate-2 15s linear infinite;
+  animation: rotate-2 60s linear infinite;
 }
