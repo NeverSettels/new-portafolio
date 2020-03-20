@@ -53,3 +53,14 @@ body {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   animation: rotate-2 60s linear infinite;
 }
+
+.about {
+  width: 85%;
+  background-color: #136f63;
+  padding: 1rem;
+  color: #d9dbf1;
+  border-radius: 0.5rem;
+}
+.about h3 {
+  color: #d19c1d;
+}
