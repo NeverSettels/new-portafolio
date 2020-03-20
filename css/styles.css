@@ -57,6 +57,7 @@ body {
   margin-top: 1rem;
   width: 85%;
   background-color: whitesmoke;
+  box-shadow: 5px 10px 8px black;
 }
 .name {
   color: #d19c1d;
@@ -69,6 +70,7 @@ body {
   color: #283044;
   border-radius: 0.5rem;
   margin: 1rem 0;
+  box-shadow: 5px 10px 8px black;
 }
 .box p {
   padding: 1rem;
@@ -174,4 +176,26 @@ h4 {
 }
 .hex3.hex:hover {
   background-color: #3c6997;
+}
+
+.side-card {
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background: #283044;
+  color: whitesmoke;
+  box-shadow: 5px 10px 8px black;
+}
+.side-card div {
+  padding: 20px;
+}
+
+.side-card img {
+  width: 30%;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  animation: rotate-2 60s ease-in-out infinite;
+  box-shadow: 5px 10px 8px black;
 }
