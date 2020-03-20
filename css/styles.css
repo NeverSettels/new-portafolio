@@ -54,6 +54,7 @@ body {
   animation: rotate-2 60s linear infinite;
 }
 .jum-container {
+  margin-top: 1rem;
   width: 85%;
   background-color: whitesmoke;
 }
@@ -153,7 +154,7 @@ h4 {
 }
 .hex p {
   padding: 0 1.5rem;
-  font-size: xx-small;
+  font-size: x-small;
   text-align: center;
 }
 .hex:hover {
