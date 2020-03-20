@@ -46,21 +46,40 @@ body {
   justify-content: center;
 }
 #header-img {
-  width: 200px;
-  height: 200px;
+  height: 20vh;
+  padding: 25%;
   background-size: contain;
   background-image: url(../images/IMG_1784.JPG);
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   animation: rotate-2 60s linear infinite;
 }
-
+.jum-container {
+  width: 85%;
+  background-color: whitesmoke;
+}
 .about {
   width: 85%;
-  background-color: #136f63;
+  background-color: whitesmoke;
   padding: 1rem;
-  color: #d9dbf1;
+  color: #283044;
   border-radius: 0.5rem;
+}
+.about p {
+  padding: 1rem;
+  text-align: justify;
 }
 .about h3 {
   color: #d19c1d;
+}
+.about h4 {
+  color: #136f63;
+}
+.skill-lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.skill-lists div {
+  width: 30%;
 }
