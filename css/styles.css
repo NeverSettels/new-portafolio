@@ -168,7 +168,7 @@ h4 {
   transform: translate(-51%, -76%);
 }
 .hex2.hex:hover {
-  background-color: #d19c1d;
+  background-color: #087e8b;
 }
 
 .hex3.hex {
@@ -198,4 +198,30 @@ h4 {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   animation: rotate-2 60s ease-in-out infinite;
   box-shadow: 5px 10px 8px black;
+}
+
+footer {
+  margin-top: 10vh;
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #3c6997;
+  color: #082536;
+  box-shadow: 0px 5px 5px inset;
+  font-size: x-small;
+  width: 100%;
+}
+
+footer a {
+  color: #d19c1d;
+  text-decoration: underline #d19c1d;
+  text-decoration-style: solid;
+}
+footer a:hover {
+  color: #888888;
+}
+footer span {
+  margin: 0 5px;
 }
