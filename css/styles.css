@@ -121,12 +121,14 @@ h4 {
   left: 35%;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   width: 30%;
   height: 30%;
   background: #283044;
   color: whitesmoke;
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  transition: all 1s linear;
 }
 .hex img {
   transform-origin: 50% 50%;
@@ -150,14 +152,24 @@ h4 {
   background: rgba(0, 0, 0, 0);
 }
 .hex p {
+  padding: 0 1.5rem;
   font-size: xx-small;
   text-align: center;
+}
+.hex:hover {
+  background-color: #136f63;
 }
 
 .hex2.hex {
   transform: translate(-51%, -76%);
 }
+.hex2.hex:hover {
+  background-color: #d19c1d;
+}
 
 .hex3.hex {
   transform: translate(51%, -76%);
+}
+.hex3.hex:hover {
+  background-color: #3c6997;
 }
